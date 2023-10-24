@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All test suite">
+	<parameter name="browser" value="firefox"></parameter>
+	<parameter name="url" value="https://tek-retail-ui.azurewebsites.net/"></parameter>
+	<test name="parameters test">
+		<classes>
+			<class name="FirstTestCase.ParametersExamples">
+			</class>
+		</classes>
+	</test>
+</suite>
